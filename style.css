@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+html {
+  scroll-behavior: smooth;
+}
+#mynavbar a:hover {
+  text-decoration: underline;
+}
+span {
+  color: red;
+}
+@media screen and (max-width: 940px) {
+  .carousel-caption h1 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .carousel-caption h1 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 478px) {
+  .carousel-caption h1 a {
+    font-size: 5px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .carousel-caption h1 a {
+    font-size: 5px;
+  }
+}
+.card img :hover {
+  transition: scale(0.5);
+  cursor: pointer;
+  background-color: black;
+}
+
+.carousel-indicators li {
+  background-color: red;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+.carousel-indicators li .active {
+  background: #fff;
+}
+
+#menu img {
+  border-radius: 20%;
+}
+.orange-text i {
+  color: orange;
+}
+#about,
+#menu,
+#product,
+#review,
+#blog {
+  padding-top: 70px;
+}
+
+.img-text h2 {
+  text-align: center;
+}
+.img-text p {
+  justify-content: center;
+}
+p {
+  font-size: medium;
+  font-weight: bold;
+
+  justify-content: center;
+  font-family: serif;
+}
+h1,
+h2 {
+  font-family: serif;
+}
+.gotop {
+  position: fixed;
+  background: red;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  right: 50px;
+  bottom: 40px;
+  text-align: center;
+  line-height: 50px;
+  color: black;
+  display: none;
+}
+@media screen and (max-width: 500px) {
+  .gotop {
+    display: block;
+  }
+}
